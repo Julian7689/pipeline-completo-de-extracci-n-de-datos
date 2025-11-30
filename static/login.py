@@ -9,8 +9,8 @@ DATA_URL = "https://quotes.toscrape.com/"
 def logeado_credenciales(session, username, password):
     try:
         payload = {
-            "username": ("juliancamilorodriguezcamelo21@gmail.com"),
-            "password": ("Bogatyr46"),
+            "username": ("TUCORREO"),
+            "password": ("TUCLAVE"),
         }
         response = session.post(LOGIN_, data=payload)
         if response.status_code == 200 and "Logout" in response.text:
